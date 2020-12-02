@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        messagesPack="com.company.enclinic.web.screens.visit"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd"
+        extends="com/company/clinic/web/screens/visit/visit-browse.xml">
+    <layout>
+        <groupTable id="visitsTable">
+            <columns>
+                <column id="urgent"/>
+            </columns>
+        </groupTable>
+    </layout>
+</window>

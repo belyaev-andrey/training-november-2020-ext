@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd" messagesPack="com.company.enclinic.web.screens.visit"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd"
+        extends="com/company/clinic/web/screens/visit/visit-edit.xml">
+    <layout>
+        <form id="form">
+            <column>
+                <checkBox id="urgent" ext:index="5"/>
+            </column>
+        </form>
+    </layout>
+</window>
